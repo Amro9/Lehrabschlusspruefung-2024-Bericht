@@ -230,8 +230,9 @@ Hier sind [meine](https://www.canva.com/design/DAGKCm-7rm0/2y27_bHHbQ8nKQkMzm-v5
 
 ## Beiträge von anderen AbsolventInnen
 
-(folgt noch)
-
+[(Repo vom Reiter Leon)](https://github.com/ReiterLeon/LAP2024)
+[(Repo vom Diendorfer Leon)](https://github.com/LeonDiendorfer/LAP_Coding_Theorie?tab=readme-ov-file)
+[(Repo vom Diendorfer Leon)](https://github.com/SenselessCoding)
 ---
 
 ## Sonstige Ressourcen:
