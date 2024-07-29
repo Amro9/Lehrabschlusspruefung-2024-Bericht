@@ -58,12 +58,13 @@ Ein paar Screenshots zwischendrin kommen sehr gut an
 ---
 
 ### Tipps:
-
-- Begrenze dich nicht nur auf die Fragestellung. Überlege, ob etwas absichtlich nicht geschrieben wurde. Bei mir gab es z.B. einen Punkt dafür, dass ich die E-Mail-Adresse in der User-Tabelle als einzigartig markiert habe, obwohl das nicht in der Fragestellung stand.
-- Es gab einen Punkt für die Indexierung einer Tabelle. Man musste einen Index für die Kategorie-Tabelle erstellen, der auf die Bezeichnung-Spalte zeigte. Wenn kein Index gefordert wird, erstelle trotzdem irgendwo einen und dokumentiere diesen.
-- Beim Insert von Daten denke nicht ob die Daten Sinn machen. Max Mustermann, Test 1, Test 2 reichen vollkommen.
-- Du musst die Insert-Statements nicht selber schreiben. Du kannst in der Oberfläche von Workbench direkt die Daten in die Tabelle eingeben und vor dem Ausführen das Insert-Skript kopieren. Das spart viel Zeit.
-- Achte auf Datentypen und Längen. Bei Passwort z.B. VARCHAR(255). Du wirst gefragt, warum so lange? (Um vorbereitet auf alle Arten von Hashes zu sein.)
+> [!TIP]
+> 
+>- Begrenze dich nicht nur auf die Fragestellung. Überlege, ob etwas absichtlich nicht geschrieben wurde. Bei mir gab es z.B. einen Punkt dafür, dass ich die E-Mail-Adresse in >der User-Tabelle als einzigartig markiert habe, obwohl das nicht in der Fragestellung stand.
+>- Es gab einen Punkt für die Indexierung einer Tabelle. Man musste einen Index für die Kategorie-Tabelle erstellen, der auf die Bezeichnung-Spalte zeigte. Wenn kein Index >gefordert wird, erstelle trotzdem irgendwo einen und dokumentiere diesen.
+>- Beim Insert von Daten denke nicht ob die Daten Sinn machen. Max Mustermann, Test 1, Test 2 reichen vollkommen.
+>- Du musst die Insert-Statements nicht selber schreiben. Du kannst in der Oberfläche von Workbench direkt die Daten in die Tabelle eingeben und vor dem Ausführen das Insert->Skript kopieren. Das spart viel Zeit.
+>- Achte auf Datentypen und Längen. Bei Passwort z.B. VARCHAR(255). Du wirst gefragt, warum so lange? (Um vorbereitet auf alle Arten von Hashes zu sein.)
 
 ---
 
@@ -151,12 +152,12 @@ Ein Beispiel, wie die Dokumentation im praktischen Teil aussehen könnte: [Beisp
 - Ich habe für die Theorie hauptsächlich mit Flashcards gelernt.
 
 Beispiel Vorderseite (Fragen)
+![2](https://github.com/user-attachments/assets/d90de565-21ec-4c60-861d-09bd6b87578f)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9698469d-b664-4e33-a007-3894603164df/cb200789-9e0c-410d-84ed-a73924dcfd73/Untitled.png)
+
 
 Beispiel Hinterseite (Antworten)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9698469d-b664-4e33-a007-3894603164df/2b020052-08ab-4540-8d94-3a62af2b0884/Untitled.png)
+![1](https://github.com/user-attachments/assets/a5fb89da-eddf-4a95-a523-4b3d077b3208)
 
 Die Falshcards habe ich mit Canva erstellt. Einfach als PDF herunterladen und beidseitig ausdrucken, dann die Karten ausschneiden.
 
@@ -178,10 +179,11 @@ Hier sind [meine](https://www.canva.com/design/DAGKCm-7rm0/2y27_bHHbQ8nKQkMzm-v5
 
 ---
 
->`[!NOTE]`  
-
+>[!NOTE] 
 >Wer noch Fragen hat gerne in die Discussions posten.
 
->`[!NOTE]`  
-
+>[!NOTE] 
 >Wie bereits erwähnt. Wer Vorschläge zum Inhalt hat, bitte ein Issue erstellen.
+
+
+Alles Gute!
