@@ -1,0 +1,62 @@
+# einleitung
+
+In diesem Dokument werden die Arbeitsschritte während der LAP Prüfung für Applikationsentwickler mitdokumentiert.
+
+# Benötigte Tools:
+
+- Xampp version ..
+- mysql workbench version ..
+
+# ER-Diagramm
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9698469d-b664-4e33-a007-3894603164df/850186e0-6efc-4db3-a817-5714c3c0f6d2/Untitled.png)
+
+# 
+
+# Überlegungen bei der Erstellung
+
+## Kundentabelle
+
+Besonderheiten: es wurde darauf verzichtet, den straßennamen in eine eigene Tabelle auszulagern, somit blieb ich möglichst praxisnah.
+
+Bei strenger Einhaltung der 3. NF würde es eine straßentabelle geben, die ortsId als FK hat, und die straßenId würde in der Usertabelle stehen. So kann über die StraßenId auf den Ort gezeigt werden.
+
+## Fahrten
+
+In der Tabelle fahrten
+
+Ist bei der tarifbezeichnung davon auszugehen, dass es sich um eine Beschreibung handelt, die Buchstaben oder Zahlen enthalten kann
+
+Der Maximale, nachvollziehabere Preis wäre so bei 500€. Das über den Max Wert des Datentypes tinyint liegt, daher wurde Smallint gewählt
+
+Bei Fahrtantritt wird das Datum zu der Zeit mit einbezogen, da eine Fahrt in den Nächsten Tag dauern könnte
+
+# Insert Stmts
+
+## Tabelle Ort
+
+insert into ort (plz, ortsname)
+
+values (5500, 'Bischofshofen'),
+
+(5020, 'Salzburg'),
+
+(8020, 'Graz')
+
+## Tabelle: Kunde
+
+use fahrplan;
+
+insert into fahrten(Kunde_id,HaltestelleStart,HaltestelleEnde,Fahrtbezahlt,tarifbezeichnung,preis,fahrtantritt,fahrtende)
+
+values (4,1,2,1,"tariftest",2.5, '2024-12-23 08:54:22',  '2024-12-23 09:54:22'),
+
+(2,2,3,0,'tariftest2',3.5,'2023-12-12 07:43:22',  '2024-12-23 12:54:22'),
+
+(3,3,2,1,'tariftest3',3.5,'2022-12-11 09:53:23','2022-12-11 10:23:23');
+
+SELECT * FROM fahrplan.fahrten;
+
+## Tabelle: Haltestellen
+
+insert into haltestelle(name) values ('hans'),("testhaltestelle"), ("test3")
