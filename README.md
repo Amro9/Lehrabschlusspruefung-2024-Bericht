@@ -41,7 +41,8 @@ Ein paar Screenshots zwischendrin kommen sehr gut an
 
 - Am Vormittag hat man viel Zeit für die Datenbank. Wenn man in der Schule die Übungen mitgemacht und verstanden hat, dürfte dieser Teil leicht fallen.
 - Zuerst bekommt man eine Problemstellung und die Aufgabe ist, dafür eine Datenbank zu erstellen.
-    - Wichtig: Denke nicht zu kompliziert. Die Prüfer wissen, dass man nicht viel Zeit hat und erwarten dementsprechend nicht zu viel. Halte dich an das KISS-Prinzip (Keep It Simple, Stupid).
+> [!WARNING]  
+> Denke nicht zu kompliziert. Die Prüfer wissen, dass man nicht viel Zeit hat und erwarten dementsprechend nicht zu viel. Halte dich an das KISS-Prinzip (Keep It Simple, >Stupid).
     - Unsere Aufgabe war eine DB für eine EinkaufslisteApp mit Listen, Kategorien, Produkten, User, Shops
 
 ---
@@ -53,11 +54,9 @@ Ein paar Screenshots zwischendrin kommen sehr gut an
     - Tabelle ExtraReservierung: id, produkt
     - Tabelle Produkt (Für Tennisbälle, -paddles, die extra zur Platzreservierung kommen können)
 
-- Der Vormittag zusammengefasst: man hat 3,5 Stunden Zeit für eine Arbeit, die nicht länger 2,5 bis 3 Stunden braucht.
-
+> [!NOTE]  
+> Der Vormittag zusammengefasst: man hat 3,5 Stunden Zeit für eine Arbeit, die nicht länger 2,5 bis 3 Stunden braucht.
 ---
-
-### Tipps:
 > [!TIP]
 > 
 >- Begrenze dich nicht nur auf die Fragestellung. Überlege, ob etwas absichtlich nicht geschrieben wurde. Bei mir gab es z.B. einen Punkt dafür, dass ich die E-Mail-Adresse in >der User-Tabelle als einzigartig markiert habe, obwohl das nicht in der Fragestellung stand.
@@ -72,11 +71,11 @@ Ein paar Screenshots zwischendrin kommen sehr gut an
 
 Für eine bereitgestellte Datenbank (das Reservierungssystem vom Vormittag) muss man eine Oberfläche mit PHP und HTML erstellen. Hier muss ich sagen, es wurde wirklich viel verlangt. Wir mussten Daten tabellarisch aus der Datenbank anzeigen und diese nach Suchbox und/oder Dropdown-Wahl filtern. Zusätzlich eine zweite Seite, um neue Reservierungen hinzuzufügen.
 
-Sehr wichtig zu wissen ist, dass die Seite nicht perfekt sein muss. Konzentriere dich auf die Fragestellung. Bei mir blieben z.B. zwei Spalten beim Hinzufügen leer. Die Aufgabe wurde trotzdem als erfüllt bewertet, da das Einfügen an sich funktionierte.
-
+> [!CAUTION]  
+> Sehr wichtig zu wissen ist, dass die Seite nicht perfekt sein muss. Konzentriere dich auf die Fragestellung. Bei mir blieben z.B. zwei Spalten beim Hinzufügen leer. Die >Aufgabe wurde trotzdem als erfüllt bewertet, da das Einfügen an sich funktionierte.
 ---
-
-Wenn man fertig ist gibt es ein Gespräch mit dem Prüfer. Das Gespräch trägt zur Verbesserung der Note bei. Wenn du etwas nicht ganz geschafft oder nicht richtig implementiert hast, kannst du erklären, wie du es sonst gemacht hättest, und dafür Punkte bekommen. Also: Konzentriere dich auf das Wesentliche und wenn du Zeit hast, kannst du Sachen verbessern.
+> [!NOTE]  
+> Wenn man fertig ist gibt es ein Gespräch mit dem Prüfer. Das Gespräch trägt zur Verbesserung der Note bei. Wenn du etwas nicht ganz geschafft oder nicht richtig >implementiert hast, kannst du erklären, wie du es sonst gemacht hättest, und dafür Punkte bekommen. Also: Konzentriere dich auf das Wesentliche und wenn du Zeit hast, kannst >du Sachen verbessern.
 
 ---
 
@@ -143,8 +142,68 @@ Mit ein bisschen Ehrgeiz und Fleiß schafft man es locker, und einem ausgezeichn
 
 ## Dokumentation
 
-Ein Beispiel, wie die Dokumentation im praktischen Teil aussehen könnte: [Beispiel für die Doku bei der praktischen Prüfung](https://www.notion.so/fa75eeff434042889d7f52b2532ad8fe?pvs=21)
+Ein Beispiel, wie die Dokumentation im praktischen Teil aussehen könnte: 
+# Einleitung
 
+In diesem Dokument werden die Arbeitsschritte während der LAP Prüfung für Applikationsentwickler mitdokumentiert.
+
+# Benötigte Tools:
+
+- Xampp version ..
+- mysql workbench version ..
+
+# ER-Diagramm
+
+![ERD](https://github.com/user-attachments/assets/52fff6e8-e939-4c47-b7f8-508a609a43f4)
+
+
+# Besondere Überlegungen
+
+## Kundentabelle
+
+Besonderheiten: es wurde darauf verzichtet, den straßennamen in eine eigene Tabelle auszulagern, somit blieb ich möglichst praxisnah.
+
+Bei strenger Einhaltung der 3. NF würde es eine straßentabelle geben, die ortsId als FK hat, und die straßenId würde in der Usertabelle stehen. So kann über die StraßenId auf den Ort gezeigt werden.
+
+## Fahrten
+
+In der Tabelle fahrten
+
+Ist bei der tarifbezeichnung davon auszugehen, dass es sich um eine Beschreibung handelt, die Buchstaben oder Zahlen enthalten kann
+
+Der Maximale, nachvollziehabere Preis wäre so bei 500€. Das über den Max Wert des Datentypes tinyint liegt, daher wurde Smallint gewählt
+
+Bei Fahrtantritt wird das Datum zu der Zeit mit einbezogen, da eine Fahrt in den Nächsten Tag dauern könnte
+
+# Insert Stmts
+
+## Tabelle Ort
+
+insert into ort (plz, ortsname)
+
+values (5500, 'Bischofshofen'),
+
+(5020, 'Salzburg'),
+
+(8020, 'Graz')
+
+## Tabelle: Kunde
+
+use fahrplan;
+
+insert into fahrten(Kunde_id,HaltestelleStart,HaltestelleEnde,Fahrtbezahlt,tarifbezeichnung,preis,fahrtantritt,fahrtende)
+
+values (4,1,2,1,"tariftest",2.5, '2024-12-23 08:54:22',  '2024-12-23 09:54:22'),
+
+(2,2,3,0,'tariftest2',3.5,'2023-12-12 07:43:22',  '2024-12-23 12:54:22'),
+
+(3,3,2,1,'tariftest3',3.5,'2022-12-11 09:53:23','2022-12-11 10:23:23');
+
+SELECT * FROM fahrplan.fahrten;
+
+## Tabelle: Haltestellen
+
+insert into haltestelle(name) values ('hans'),("testhaltestelle"), ("test3")
 ---
 
 ### Theorie:
