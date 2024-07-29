@@ -41,7 +41,7 @@ Ein paar Screenshots zwischendrin kommen sehr gut an
 
 - Am Vormittag hat man viel Zeit für die Datenbank. Wenn man in der Schule die Übungen mitgemacht und verstanden hat, dürfte dieser Teil leicht fallen.
 - Zuerst bekommt man eine Problemstellung und die Aufgabe ist, dafür eine Datenbank zu erstellen.
-> [!WARNING]  
+> [!CAUTION]  
 > Denke nicht zu kompliziert. Die Prüfer wissen, dass man nicht viel Zeit hat und erwarten dementsprechend nicht zu viel. Halte dich an das KISS-Prinzip (Keep It Simple, >Stupid).
     - Unsere Aufgabe war eine DB für eine EinkaufslisteApp mit Listen, Kategorien, Produkten, User, Shops
 
