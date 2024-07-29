@@ -4,12 +4,10 @@ Hi und herzlich Willkommen!
 
 Nun ist meine LAP geschafft – zum Glück mit ausgezeichnetem Erfolg! Ich möchte hier meine Erfahrungen teilen und beschreiben, wie ich mich vorbereitet habe und wie die Prüfung verlaufen ist.
 
->`[!NOTE]`  
-
+>[!NOTE]
 >Wer Vorschläge zum Inhalt hat, bitte ein Issue erstellen.
 
->`[!NOTE]`  
-
+>[!NOTE] 
 >Ihr könnt außerdem eurer Berichte nach der LAP in ein Repository schrieben und den Link in diesem Readme am Ende hinzufügen. So können die nächsten Schüler alle Berichte an einem Ort haben.
 
 ## Vor der Prüfung
