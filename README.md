@@ -64,7 +64,7 @@ Ein paar Screenshots zwischendurch kommen gut an.
 Für eine zur Verfügung gestellte Datenbank (das Reservierungssystem vom Vormittag) muss eine Schnittstelle mit PHP und HTML erstellt werden. Hier muss ich sagen, dass wirklich viel verlangt wurde. Wir mussten Daten aus der Datenbank tabellarisch anzeigen und diese nach Suchbox und/oder Dropdown-Auswahl filtern. Außerdem eine zweite Seite, um neue Reservierungen hinzuzufügen.
 
 > [!CAUTION]  
->Wichtig ist, dass die Seite nicht perfekt sein muss. Konzentriere dich auf das Wesentliche. Bei mir sind z.B. zwei Spalten beim Hinzufügen leer geblieben. Die >Aufgabe wurde trotzdem als erfüllt gewertet, da das Einfügen an sich funktionierte.
+>Wichtig ist, dass die Seite und der Code nicht perfekt sein müssen. Konzentriere dich auf das Wesentliche. Bei mir sind z.B. zwei Spalten beim Hinzufügen leer geblieben. Die Aufgabe wurde trotzdem als erfüllt gewertet, da das Einfügen an sich funktionierte. Wichtig z.b. auch die Eingabe-Validierung (prepared stmts, xss-Angriffe) 
 ---
 > [!NOTE]  
 > Wenn man fertig ist, gibt es ein Gespräch mit dem Prüfer. Das Gespräch hilft, die Note zu verbessern. Wenn du etwas nicht ganz geschafft oder nicht richtig umgesetzt hast, kannst du erklären, wie du es sonst gemacht hättest und dafür Punkte bekommen. Also: Konzentriere dich auf das Wesentliche, und wenn du Zeit hast, kannst du die Dinge verbessern.
@@ -108,7 +108,7 @@ Insgesamt fand ich das Fachgespräch nicht schwer. Ich habe versucht, nicht zu v
     - Exceptions verwenden und sinnvolle Benutzer-Meldungen anzeigen
     - Arbeitschritte dokumentieren
 - Beispiele: Bibliothekssystem, Ausleihsystem, Fahrplan-App (Haltestelle Anfang, Ende, Passagier, Preis (Float!!), bezahlt etc.)
-
+- Beispiel für eine Doku der Arbeitsschritte ist im Repo
 ---
 
 ## Für die Theorie
