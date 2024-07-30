@@ -122,7 +122,7 @@ Insgesamt fand ich das Fachgespräch nicht schwer. Ich habe versucht, nicht zu v
 ![2](https://github.com/user-attachments/assets/d90de565-21ec-4c60-861d-09bd6b87578f)
 1. Das Dokument als PDF herunterladen und beidseitig ausdrucken, dann die Karten ausschneiden.
 
-Hier sind [meine](https://www.canva.com/design/DAGKCm-7rm0/2y27_bHHbQ8nKQkMzm-v5A/view?utm_content=DAGKCm-7rm0&utm_campaign=designshare&utm_medium=link&utm_source=editor), jeder darf sie verwenden.
+Hier sind [meine]([https://www.canva.com/design/DAGKCm-7rm0/2y27_bHHbQ8nKQkMzm-v5A/view?utm_content=DAGKCm-7rm0&utm_campaign=designshare&utm_medium=link&utm_source=editor](https://www.canva.com/design/DAGKCm-7rm0/hPSm0hGXBZK3NBwh8VjbXg/view?utm_content=DAGKCm-7rm0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)), jeder darf sie verwenden.
 
 ---
 
