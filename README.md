@@ -108,7 +108,7 @@ Insgesamt fand ich das Fachgespräch nicht schwer. Ich habe versucht, nicht zu v
     - Exceptions verwenden und sinnvolle Benutzer-Meldungen anzeigen
     - Arbeitschritte dokumentieren
 - Beispiele: Bibliothekssystem, Ausleihsystem, Fahrplan-App (Haltestelle Anfang, Ende, Passagier, Preis (Float!!), bezahlt etc.)
-- Beispiel für eine Doku der Arbeitsschritte ist im Repo
+- Beispiel für eine Doku der Arbeitsschritte ist im Repo -> [Link](https://github.com/Amro9/LAP-2024/blob/main/Beispiel%20einer%20Dokumentation.docx)
 ---
 
 ## Für die Theorie
