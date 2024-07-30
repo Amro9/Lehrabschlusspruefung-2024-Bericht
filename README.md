@@ -95,14 +95,12 @@ Es gibt drei Prüfer. Jeder stellt 3-4 Fragen.
 
 Insgesamt fand ich das Fachgespräch nicht schwer. Ich habe versucht, nicht zu viele Fachbegriffe zu verwenden und nur genau auf die Frage zu antworten. Die Prüfer lassen einem Zeit, alles zu sagen, was man möchte. Ich habe immer wieder gefragt: „Habe ich jetzt die Frage beantwortet oder soll ich weiterreden?“ und meistens war die Antwort: „Das reicht“.
 
----
-## Zusammenfassung:
-Alles in allem kann man sagen, dass 3-4 Wochen Vorbereitung ausreichen. Für die letzten 3 Wochen braucht man aber unbedingt einen Plan mit 3-4 Stunden am Tag.
+> **Zusammenfassung:**
+> Alles in allem kann man sagen, dass 3-4 Wochen Vorbereitung ausreichen. Für die letzten 3 Wochen braucht man aber unbedingt einen Plan mit 3-4 Stunden am Tag.
 ---
 # Ein Lernplan als Vorschlag
 
 ## Für die Praxis
-
 - Mehrfaches Entwerfen einer Datenbank inkl. ERD. Dabei Daten hinzufügen und Queries inkl. Aggregations und Joins schreiben. Arbeitschritte dokumentieren.
 - Diese Datenbanken für eine Website mit HTML + PHP nutzen. Implementiere folgendes:
     - CRUD (Create, Read, Update, Delete)
@@ -114,7 +112,6 @@ Alles in allem kann man sagen, dass 3-4 Wochen Vorbereitung ausreichen. Für die
 ---
 
 ## Für die Theorie
-
 - Den Katalog durchgehen und auf die Frage „Was haben Sie in der Firma gemacht?“ vorbereitet sein. Wenn noch Zeit bleibt, ein bisschen in den Schulunterlagen blättern und mehr lesen (Firewall, Backups, Verschlüsselung, ...).
 - Ich habe mir Flashcards zu den Fragen aus dem Katalog erstellt und die meisten Fragen mit ChatGPT beantwortet. Flashcards lassen sich leicht mit Canva erstellen. Ich habe die Flashcards in drei Teile mit jeweils ca. 100 Flashcards aufgeteilt und jeden Tag ein bis zwei Teile beantwortet. Egal ob im Zug, bei der Arbeit oder vor dem Schlafengehen. Ein paar Tage später fängt man an, sie auswendig zu beantworten, ohne bei der Antwort in Panik zu geraten.
 - Als ich mit dem Großteil der Fragen vertraut war, habe ich für die Frage "Was haben Sie in der Firma gemacht" recherchiert. Ich hatte in der Firma mit Datenbanken und einer API zu tun. Neben Datenbanken habe ich mich also auch mit Internet, Übertragungsprotokollen, REST-API, SOAP usw. beschäftigt.
@@ -126,12 +123,17 @@ Alles in allem kann man sagen, dass 3-4 Wochen Vorbereitung ausreichen. Für die
 1. Das Dokument als PDF herunterladen und beidseitig ausdrucken, dann die Karten ausschneiden.
 
 Hier sind [meine](https://www.canva.com/design/DAGKCm-7rm0/2y27_bHHbQ8nKQkMzm-v5A/view?utm_content=DAGKCm-7rm0&utm_campaign=designshare&utm_medium=link&utm_source=editor), jeder darf sie verwenden.
+
 ---
+
 ## Beiträge von anderen AbsolventInnen
 
 [(Repo vom Reiter Leon)](https://github.com/ReiterLeon/LAP2024)
+
 [(Repo vom Diendorfer Leon)](https://github.com/LeonDiendorfer/LAP_Coding_Theorie?tab=readme-ov-file)
+
 [(Repo vom Diendorfer Leon)](https://github.com/SenselessCoding)
+
 
 ## Sonstige Ressourcen:
 
@@ -144,8 +146,8 @@ Wer noch Fragen hat gerne in die Discussions posten.
 > 
 
 > [!NOTE]
-Wie bereits erwähnt. Wer Vorschläge zum Inhalt hat, bitte ein Issue erstellen.
-> 
+>Wie bereits erwähnt. Wer Vorschläge zum Inhalt hat, bitte ein Issue erstellen.
 
-Mit ein bisschen Ehrgeiz und Fleiß schafft man das schon und einem tollen Erfolg steht nichts im Wege.
+
+Mit ein bisschen Ehrgeiz und Fleiß schafft man das schon und einem tollen Erfolg kann nichts im Wege stehen.
 Alles Gute!
