@@ -2,7 +2,8 @@
 
 Hallo und herzlich willkommen!
 
-Meine LAP ist nun vorbei - zum Glück mit ausgezeichnetem Erfolg! Ich möchte hier meine Erfahrungen weitergeben und beschreiben, wie ich mich vorbereitet habe und wie die Prüfung abgelaufen ist.
+Meine LAP ist nun vorbei Ich möchte hier meine Erfahrungen weitergeben und beschreiben, wie ich mich vorbereitet habe und wie die Prüfung abgelaufen ist.
+Als Richtewert für dich beim Lesen: ich habe zum Glück mit Auszeichnung abgeschlossen.
 
 > [!NOTE]
 Wer Vorschläge zum Inhalt hat, bitte ein Issue erstellen.
